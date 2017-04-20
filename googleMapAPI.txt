@@ -1,0 +1,16 @@
+Tutoriel officiel, vous pouvez en cherchez d'autres :
+
+https://developers.google.com/maps/documentation/javascript/tutorial
+https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple?hl=fr
+
+Avec ça vous devriez facilement réaliser une carte permettant de voir Montpellier et Narbonne
+
+Ajoutez un marqueur sur Narbonne.
+
+Mettez ensuite un deuxieme marqueur sur Montpellier.
+
+Ajoutez une info-bulle sur chaque marqueur avec le nom de la ville et en dessous le lien vers la page wikipedia de la ville.
+
+# pour trouver des coordonnees gps : 
+
+https://www.coordonnees-gps.fr/
