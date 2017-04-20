@@ -17,8 +17,6 @@
 
       tutoriel : https://www.lije-creative.com/tuto-leaflet-tiles-gratuits/ et http://leafletjs.com/examples.html
 
-
-
       </textarea> -->
 
      <div id="mapid" style="width:545px; height:490px"></div>
@@ -45,7 +43,23 @@
         var markerBeziers = L.marker([43.344233, 3.215795000000071],{icon: myIcon}).addTo(carte);
         var markerMontpellier = L.marker([43.610769, 3.8767159999999876]).addTo(carte);
 
+        markerNarbonne.bindPopup('');
+        var mapopupNarbonne = markerNarbonne.getPopup();
+        mapopupNarbonne.setContent('Narbonne');
+        // ca ouvre la popup au chargement si on l enleve ca se fera au clik du coup.
+        // markerNarbonne.openPopup();
 
+        markerBeziers.bindPopup('');
+        var mapopup = markerBeziers.getPopup();
+        mapopup.setContent('Beziers');
+        // ca ouvre la popup au chargement si on l enleve ca se fera au clik du coup.
+        // markerBeziers.openPopup();
+
+        markerMontpellier.bindPopup('');
+        var mapopupMontpellier = markerMontpellier.getPopup();
+        mapopupMontpellier.setContent('Montpellier');
+        // ca ouvre la popup au chargement si on l enleve ca se fera au clik du coup.
+        // markerMontpellier.openPopup();
 
      </script>
 
