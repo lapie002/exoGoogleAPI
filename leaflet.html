@@ -14,6 +14,9 @@
       <!-- <textarea name="name" rows="8" cols="80">
       Faire une carte leaflet ( 3 markers sur une carte avec un des 3 marker doit être personnalisé, donc différent des 2 autres.
       Puis la pushé tous ça avec votre carte google de hier sur github, merci bien
+
+      tutoriel : https://www.lije-creative.com/tuto-leaflet-tiles-gratuits/
+
       </textarea> -->
 
      <div id="mapid" style="width:545px; height:490px"></div>
@@ -36,6 +39,7 @@
         }).addTo(carte);
 
         var markerNarbonne = L.marker([43.181960200000006, 2.9785079999999997]).addTo(carte);
+        //pour le marker beziers on rajoute icon : myIcon pour utiliser l image en png.
         var markerBeziers = L.marker([43.344233, 3.215795000000071],{icon: myIcon}).addTo(carte);
         var markerMontpellier = L.marker([43.610769, 3.8767159999999876]).addTo(carte);
 
